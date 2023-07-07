@@ -1,0 +1,57 @@
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Al actualizar el repositorio uso:
+git clone (url de mi repositorio fork)
+git remote add upstream (url del repositorio original)
+git fetch upstream (traer todos los cambios de un repositorio remote)
+git checkout -b "branchprueba" (Para realizar/controlar los cambios)
+git rebase upstream/main (cambiar la base de nuestra rama principal trayendo los nuevos cambios)
+git push -f origin branchprueba (Actualizar la branch del repositorio de prueba)
+
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+GAMMA NO ESTÁ
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+GAMMA NO ESTÁ
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+d)no se pude ver
+
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
+Nota: hacen lo necesario para que todas las respuestas queden en la versión final del
+archivo.
+
+e)
+
+ALFA
+
+git init
+git clone https://github.com/GianRod/TP_SO_i2_Equipo105-1.git
+git add .
+git commit -m "Push alfa"
+git push origin main
+
+git clone
+git remote add upstream
+git fetch upstream
+git checkout -b "branchprueba"
+git rebase upstream/main
+git push -f origin branchprueba
+
+
+
+BETA
+
+
+git init
+git clone https://github.com/yuskema/TP_SO_i2_Equipo105.git
+git add .
+git commit -m "parte2" 
+git push origin main
+
+git add .
+git commit -m "parte3"
+git push origin main

@@ -1,0 +1,37 @@
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+d)no se pude ver
+
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
+Nota: hacen lo necesario para que todas las respuestas queden en la versión final del
+archivo.
+
+e)
+git init
+git clone https://github.com/yuskema/TP_SO_i2_Equipo105.git
+git add .
+git commit -m "parte2" 
+git push origin main
+
+git add .
+git commit -m "parte3"
+git push origin main 
+
+7-GAMMA sube las respuestas a- y b-
+
+6-BETA sube la c- y d-
+
+
+7-ALFA sube la e-
+
+todas en el mismo archivo “respuesta_I2_EquipoX.txt” (donde X es el número del
+
+equipo)
